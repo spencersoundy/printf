@@ -1,16 +1,17 @@
 #include "main.h"
 
-/****************** PRINT POINTER ******************/
+/***pointer print ***/
 /**
- * print_pointer - Prints the value of a pointer variable
- * @types: List a of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
- * @width: get width
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed.
+ * @print_pointer -value of a pointer varaible
+ * @types: tupes of argument
+ * @buffer: the buffer
+ * @flags: to find and calculate active flags
+ * @width: the width of the argument
+ * @precision: specifies how precise
+ * @size: spicfies size
+ * Return: return the number char in print
  */
+
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
